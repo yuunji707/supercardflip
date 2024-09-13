@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABA7ED0D2C93CB2D00604675 /* SuperFlipCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA7ED0C2C93CB2D00604675 /* SuperFlipCardApp.swift */; };
+		ABA7ED0F2C93CB2D00604675 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA7ED0E2C93CB2D00604675 /* ContentView.swift */; };
+		ABA7ED112C93CB2F00604675 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABA7ED102C93CB2F00604675 /* Assets.xcassets */; };
+		ABA7ED142C93CB2F00604675 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABA7ED132C93CB2F00604675 /* Preview Assets.xcassets */; };
+		ABA7ED1E2C93CB2F00604675 /* SuperFlipCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA7ED1D2C93CB2F00604675 /* SuperFlipCardTests.swift */; };
+		ABA7ED282C93CB2F00604675 /* SuperFlipCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA7ED272C93CB2F00604675 /* SuperFlipCardUITests.swift */; };
+		ABA7ED2A2C93CB2F00604675 /* SuperFlipCardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA7ED292C93CB2F00604675 /* SuperFlipCardUITestsLaunchTests.swift */; };
+		ABA7ED372C93CB5700604675 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA7ED362C93CB5700604675 /* CardModel.swift */; };
+		ABA7ED392C93CB6D00604675 /* CardGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA7ED382C93CB6D00604675 /* CardGameViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABA7ED1A2C93CB2F00604675 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABA7ED012C93CB2D00604675 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABA7ED082C93CB2D00604675;
+			remoteInfo = SuperFlipCard;
+		};
+		ABA7ED242C93CB2F00604675 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABA7ED012C93CB2D00604675 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABA7ED082C93CB2D00604675;
+			remoteInfo = SuperFlipCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABA7ED092C93CB2D00604675 /* SuperFlipCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperFlipCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA7ED0C2C93CB2D00604675 /* SuperFlipCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperFlipCardApp.swift; sourceTree = "<group>"; };
+		ABA7ED0E2C93CB2D00604675 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ABA7ED102C93CB2F00604675 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABA7ED132C93CB2F00604675 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ABA7ED192C93CB2F00604675 /* SuperFlipCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperFlipCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA7ED1D2C93CB2F00604675 /* SuperFlipCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperFlipCardTests.swift; sourceTree = "<group>"; };
+		ABA7ED232C93CB2F00604675 /* SuperFlipCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperFlipCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA7ED272C93CB2F00604675 /* SuperFlipCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperFlipCardUITests.swift; sourceTree = "<group>"; };
+		ABA7ED292C93CB2F00604675 /* SuperFlipCardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperFlipCardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ABA7ED362C93CB5700604675 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		ABA7ED382C93CB6D00604675 /* CardGameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGameViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABA7ED062C93CB2D00604675 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA7ED162C93CB2F00604675 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA7ED202C93CB2F00604675 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABA7ED002C93CB2D00604675 = {
+			isa = PBXGroup;
+			children = (
+				ABA7ED0B2C93CB2D00604675 /* SuperFlipCard */,
+				ABA7ED1C2C93CB2F00604675 /* SuperFlipCardTests */,
+				ABA7ED262C93CB2F00604675 /* SuperFlipCardUITests */,
+				ABA7ED0A2C93CB2D00604675 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABA7ED0A2C93CB2D00604675 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABA7ED092C93CB2D00604675 /* SuperFlipCard.app */,
+				ABA7ED192C93CB2F00604675 /* SuperFlipCardTests.xctest */,
+				ABA7ED232C93CB2F00604675 /* SuperFlipCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABA7ED0B2C93CB2D00604675 /* SuperFlipCard */ = {
+			isa = PBXGroup;
+			children = (
+				ABA7ED0C2C93CB2D00604675 /* SuperFlipCardApp.swift */,
+				ABA7ED0E2C93CB2D00604675 /* ContentView.swift */,
+				ABA7ED102C93CB2F00604675 /* Assets.xcassets */,
+				ABA7ED122C93CB2F00604675 /* Preview Content */,
+				ABA7ED362C93CB5700604675 /* CardModel.swift */,
+				ABA7ED382C93CB6D00604675 /* CardGameViewModel.swift */,
+			);
+			path = SuperFlipCard;
+			sourceTree = "<group>";
+		};
+		ABA7ED122C93CB2F00604675 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ABA7ED132C93CB2F00604675 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ABA7ED1C2C93CB2F00604675 /* SuperFlipCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABA7ED1D2C93CB2F00604675 /* SuperFlipCardTests.swift */,
+			);
+			path = SuperFlipCardTests;
+			sourceTree = "<group>";
+		};
+		ABA7ED262C93CB2F00604675 /* SuperFlipCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ABA7ED272C93CB2F00604675 /* SuperFlipCardUITests.swift */,
+				ABA7ED292C93CB2F00604675 /* SuperFlipCardUITestsLaunchTests.swift */,
+			);
+			path = SuperFlipCardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABA7ED082C93CB2D00604675 /* SuperFlipCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA7ED2D2C93CB2F00604675 /* Build configuration list for PBXNativeTarget "SuperFlipCard" */;
+			buildPhases = (
+				ABA7ED052C93CB2D00604675 /* Sources */,
+				ABA7ED062C93CB2D00604675 /* Frameworks */,
+				ABA7ED072C93CB2D00604675 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperFlipCard;
+			productName = SuperFlipCard;
+			productReference = ABA7ED092C93CB2D00604675 /* SuperFlipCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABA7ED182C93CB2F00604675 /* SuperFlipCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA7ED302C93CB2F00604675 /* Build configuration list for PBXNativeTarget "SuperFlipCardTests" */;
+			buildPhases = (
+				ABA7ED152C93CB2F00604675 /* Sources */,
+				ABA7ED162C93CB2F00604675 /* Frameworks */,
+				ABA7ED172C93CB2F00604675 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABA7ED1B2C93CB2F00604675 /* PBXTargetDependency */,
+			);
+			name = SuperFlipCardTests;
+			productName = SuperFlipCardTests;
+			productReference = ABA7ED192C93CB2F00604675 /* SuperFlipCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABA7ED222C93CB2F00604675 /* SuperFlipCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA7ED332C93CB2F00604675 /* Build configuration list for PBXNativeTarget "SuperFlipCardUITests" */;
+			buildPhases = (
+				ABA7ED1F2C93CB2F00604675 /* Sources */,
+				ABA7ED202C93CB2F00604675 /* Frameworks */,
+				ABA7ED212C93CB2F00604675 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABA7ED252C93CB2F00604675 /* PBXTargetDependency */,
+			);
+			name = SuperFlipCardUITests;
+			productName = SuperFlipCardUITests;
+			productReference = ABA7ED232C93CB2F00604675 /* SuperFlipCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABA7ED012C93CB2D00604675 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					ABA7ED082C93CB2D00604675 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					ABA7ED182C93CB2F00604675 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = ABA7ED082C93CB2D00604675;
+					};
+					ABA7ED222C93CB2F00604675 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = ABA7ED082C93CB2D00604675;
+					};
+				};
+			};
+			buildConfigurationList = ABA7ED042C93CB2D00604675 /* Build configuration list for PBXProject "SuperFlipCard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABA7ED002C93CB2D00604675;
+			productRefGroup = ABA7ED0A2C93CB2D00604675 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABA7ED082C93CB2D00604675 /* SuperFlipCard */,
+				ABA7ED182C93CB2F00604675 /* SuperFlipCardTests */,
+				ABA7ED222C93CB2F00604675 /* SuperFlipCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABA7ED072C93CB2D00604675 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA7ED142C93CB2F00604675 /* Preview Assets.xcassets in Resources */,
+				ABA7ED112C93CB2F00604675 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA7ED172C93CB2F00604675 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA7ED212C93CB2F00604675 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABA7ED052C93CB2D00604675 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA7ED0F2C93CB2D00604675 /* ContentView.swift in Sources */,
+				ABA7ED0D2C93CB2D00604675 /* SuperFlipCardApp.swift in Sources */,
+				ABA7ED392C93CB6D00604675 /* CardGameViewModel.swift in Sources */,
+				ABA7ED372C93CB5700604675 /* CardModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA7ED152C93CB2F00604675 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA7ED1E2C93CB2F00604675 /* SuperFlipCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA7ED1F2C93CB2F00604675 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA7ED282C93CB2F00604675 /* SuperFlipCardUITests.swift in Sources */,
+				ABA7ED2A2C93CB2F00604675 /* SuperFlipCardUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABA7ED1B2C93CB2F00604675 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABA7ED082C93CB2D00604675 /* SuperFlipCard */;
+			targetProxy = ABA7ED1A2C93CB2F00604675 /* PBXContainerItemProxy */;
+		};
+		ABA7ED252C93CB2F00604675 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABA7ED082C93CB2D00604675 /* SuperFlipCard */;
+			targetProxy = ABA7ED242C93CB2F00604675 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ABA7ED2B2C93CB2F00604675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABA7ED2C2C93CB2F00604675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABA7ED2E2C93CB2F00604675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SuperFlipCard/Preview Content\"";
+				DEVELOPMENT_TEAM = N753B6F22Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Younis.SuperFlipCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABA7ED2F2C93CB2F00604675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SuperFlipCard/Preview Content\"";
+				DEVELOPMENT_TEAM = N753B6F22Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Younis.SuperFlipCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ABA7ED312C93CB2F00604675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N753B6F22Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Younis.SuperFlipCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperFlipCard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SuperFlipCard";
+			};
+			name = Debug;
+		};
+		ABA7ED322C93CB2F00604675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N753B6F22Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Younis.SuperFlipCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperFlipCard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SuperFlipCard";
+			};
+			name = Release;
+		};
+		ABA7ED342C93CB2F00604675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N753B6F22Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Younis.SuperFlipCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SuperFlipCard;
+			};
+			name = Debug;
+		};
+		ABA7ED352C93CB2F00604675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N753B6F22Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Younis.SuperFlipCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SuperFlipCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABA7ED042C93CB2D00604675 /* Build configuration list for PBXProject "SuperFlipCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA7ED2B2C93CB2F00604675 /* Debug */,
+				ABA7ED2C2C93CB2F00604675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABA7ED2D2C93CB2F00604675 /* Build configuration list for PBXNativeTarget "SuperFlipCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA7ED2E2C93CB2F00604675 /* Debug */,
+				ABA7ED2F2C93CB2F00604675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABA7ED302C93CB2F00604675 /* Build configuration list for PBXNativeTarget "SuperFlipCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA7ED312C93CB2F00604675 /* Debug */,
+				ABA7ED322C93CB2F00604675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABA7ED332C93CB2F00604675 /* Build configuration list for PBXNativeTarget "SuperFlipCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA7ED342C93CB2F00604675 /* Debug */,
+				ABA7ED352C93CB2F00604675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABA7ED012C93CB2D00604675 /* Project object */;
+}
